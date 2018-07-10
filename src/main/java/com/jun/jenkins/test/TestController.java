@@ -11,6 +11,6 @@ public class TestController {
     @RequestMapping(method = RequestMethod.GET, value = "/test")
     @ResponseBody
     public Object test () {
-        return "Hello Jenkins";
+        return "Hello Jenkins aaaaa";
     }
 }
